@@ -5,5 +5,5 @@ export function buildWhatsAppLink(message: string): string {
 }
 
 export function getCalendlyUrl(): string {
-  return process.env.NEXT_PUBLIC_CALENDLY_URL || 'https://calendly.com/SEU-LINK-AQUI';
+  return process.env.NEXT_PUBLIC_CALENDLY_URL || 'https://calendly.com/comercial-visaofficegroup';
 }
