@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --navy-base: #0B1F3A;
+    --navy-deep: #07162A;
+    --gold-base: #C9A24A;
+    --gold-soft: #E6D3A3;
+    --red-news: #B21F2D;
+    --gray-text: #D6DCE6;
+    --ticker-height: 30px;
+    --nav-height: 80px;
+    --header-total-height: 110px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased;
+    padding-top: var(--header-total-height);
+    background-color: var(--navy-deep);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-8 py-4 bg-gold-base text-navy-deep font-semibold rounded-lg hover:bg-gold-600 transition-all duration-300 shadow-md hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-4 border-2 border-gold-base text-gold-base font-semibold rounded-lg hover:bg-gold-base/10 transition-all duration-300;
+  }
+
+  .card-premium {
+    @apply bg-navy-deep/80 rounded-2xl p-8 border border-white/10 shadow-md hover:border-gold-base/30 hover:shadow-xl transition-all duration-500;
+  }
+
+  .section-divider {
+    @apply h-px bg-gradient-to-r from-transparent via-gold-base to-transparent opacity-30;
+  }
+}
