@@ -189,3 +189,4 @@ Proprietary - VISA OFFICE GROUP © 2026
 ## Support
 
 For technical support or questions, contact the development team.
+<!-- trigger: redeploy via Vercel após troca de repositório -->
