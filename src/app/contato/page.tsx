@@ -38,7 +38,7 @@ export default function ContatoPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-white">Endereço</p>
-                    <p className="text-gray-text/80 text-sm">3050 Station Square, Kissimmee, FL, USA</p>
+                    <p className="text-gray-text/80 text-sm">Winter Garden, FL 34787</p>
                   </div>
                 </div>
 

@@ -373,8 +373,8 @@ export default function GoldCardPage() {
               <div className="space-y-3">
                 <p className="text-sm text-gray-text leading-relaxed">
                   {isPT
-                    ? 'A Visa Office Group é um Document Preparation Office (escritório de preparação de documentos). NÃO somos um escritório de advocacia e NÃO fornecemos aconselhamento jurídico.'
-                    : 'Visa Office Group is a Document Preparation Office. We are NOT a law firm and do NOT provide legal advice.'}
+                    ? 'A Visa Office Group oferece assistência na preparação e organização de documentos imigratórios. Não substituímos aconselhamento jurídico. Para questões legais e representação, podemos recomendar um advogado licenciado parceiro, quando necessário.'
+                    : 'Visa Office Group provides assistance with the preparation and organization of immigration documents. We do not replace legal advice. For legal matters and representation, we can recommend a licensed partner attorney when necessary.'}
                 </p>
                 <p className="text-sm text-gray-text/80 leading-relaxed">
                   {isPT

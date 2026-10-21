@@ -57,7 +57,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-gold-base mt-1 flex-shrink-0" />
-                <span className="text-sm text-gray-text/80">3050 Station Square, Kissimmee, FL, USA</span>
+                <span className="text-sm text-gray-text/80">Winter Garden, FL 34787</span>
               </li>
               <li className="flex items-start space-x-3">
                 <Mail size={18} className="text-gold-base mt-1 flex-shrink-0" />

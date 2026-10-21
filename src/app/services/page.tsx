@@ -108,8 +108,8 @@ export default function ServicesPage() {
           <div className="mt-12 text-center">
             <p className="text-sm text-gray-text">
               {language === 'pt'
-                ? 'Este é um serviço de preparação de documentos e suporte administrativo. Não fornecemos aconselhamento jurídico.'
-                : 'This is a document preparation and administrative support service. We do not provide legal advice.'}
+                ? 'A Visa Office Group oferece assistência na preparação e organização de documentos imigratórios. Não substituímos aconselhamento jurídico. Para questões legais e representação, podemos recomendar um advogado licenciado parceiro, quando necessário.'
+                : 'Visa Office Group provides assistance with the preparation and organization of immigration documents. We do not replace legal advice. For legal matters and representation, we can recommend a licensed partner attorney when necessary.'}
             </p>
           </div>
         </div>

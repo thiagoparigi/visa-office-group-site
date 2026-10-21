@@ -31,8 +31,8 @@ export function generateLocalBusinessSchema() {
     email: 'contato@visaofficegroup.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '3050 Station Square',
-      addressLocality: 'Kissimmee',
+            addressLocality: 'Winter Garden',
+    postalCode: '34787',
       addressRegion: 'FL',
       addressCountry: 'US',
     },
