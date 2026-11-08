@@ -27,22 +27,22 @@ export default function AvaliacoesPage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div className="card-premium">
-              <p className="text-gray-text leading-relaxed mb-6">{"Eu assino embaixo hoje tive assistência por dois excelentes profissionais,me ouviu me orientou ,me ajudou tirar um peso da alma ,logo logo irei compartilhar minha história e experiência com  meus amigos ,não existe nada no mundo doque nós sentirmos seguros ,orientados por quem entendo do assunto !! Me sinto leve !!e muito grata ,vocês vão fazer diferença na minha vida e eu farei na de vocês !!"}</p>
+              <p className="text-gray-text leading-relaxed mb-6">{"Eu assino embaixo, hoje tive assistência por dois excelentes profissionais, me ouviu, me orientou, me ajudou a tirar um peso da alma. Logo, logo irei compartilhar minha história e experiência com meus amigos. Não existe nada no mundo do que nós sentirmos seguros, orientados por quem entende do assunto!! Me sinto leve!! e muito grata, vocês vão fazer diferença na minha vida e eu farei na de vocês!!"}</p>
               <p className="font-semibold text-white">Alice Souza</p>
               <p className="text-sm text-gold-soft">Fonte: Instagram</p>
             </div>
             <div className="card-premium">
-              <p className="text-gray-text leading-relaxed mb-6">{"Quero agradecer a vocês pelo suporte que estão oferecendo para @elianefarmer num momento de muita dor e sofrimento, esse acontecimento conforta e trás credibilidade ao trabalho de vocês, por isso comecei a seguir o seu perfil, gratidão 🙏"}</p>
+              <p className="text-gray-text leading-relaxed mb-6">{"Quero agradecer a vocês pelo suporte que estão oferecendo para @elianefarmer num momento de muita dor e sofrimento. Esse acontecimento conforta e traz credibilidade ao trabalho de vocês, por isso comecei a seguir o seu perfil, gratidão 🙏"}</p>
               <p className="font-semibold text-white">Adriana Martins</p>
               <p className="text-sm text-gold-soft">Fonte: Instagram</p>
             </div>
             <div className="card-premium">
-              <p className="text-gray-text leading-relaxed mb-6">{"Ai são os melhores 👏👏 realmente luta pelo seu processo."}</p>
+              <p className="text-gray-text leading-relaxed mb-6">{"Aí são os melhores 👏👏 realmente lutam pelo seu processo."}</p>
               <p className="font-semibold text-white">Wesley Molina</p>
               <p className="text-sm text-gold-soft">Fonte: Instagram</p>
             </div>
             <div className="card-premium">
-              <p className="text-gray-text leading-relaxed mb-6">{"Parabéns por terem atendido tão prontamente a @elianefarmer ! Muito obrigada 🙌🙏🏻"}</p>
+              <p className="text-gray-text leading-relaxed mb-6">{"Parabéns por terem atendido tão prontamente a @elianefarmer! Muito obrigada 🙌🙏🏻"}</p>
               <p className="font-semibold text-white">Miriam Bruno</p>
               <p className="text-sm text-gold-soft">Fonte: Instagram</p>
             </div>
