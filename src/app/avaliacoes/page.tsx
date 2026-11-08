@@ -1,5 +1,6 @@
 import { generatePageMetadata } from '@/lib/seo';
 import BackgroundLayer from '@/components/BackgroundLayer';
+import ReviewForm from '@/components/ReviewForm';
 
 export const metadata = generatePageMetadata({
   title: 'Avaliações',
@@ -45,6 +46,14 @@ export default function AvaliacoesPage() {
               <p className="font-semibold text-white">Miriam Bruno</p>
               <p className="text-sm text-gold-soft">Fonte: Instagram</p>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="relative py-20 overflow-hidden">
+        <BackgroundLayer intensity="subtle" />
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-2xl mx-auto">
+            <ReviewForm />
           </div>
         </div>
       </section>
