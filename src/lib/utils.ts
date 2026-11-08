@@ -4,6 +4,6 @@ export function buildWhatsAppLink(message: string): string {
   return `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 }
 
-export function getCalendlyUrl(): string {
-  return process.env.NEXT_PUBLIC_CALENDLY_URL || 'https://calendly.com/SEU-LINK-AQUI';
+export function getBookingUrl(): string {
+  return 'https://calendar.app.google/jXMvt7ZtpdcbghSx7';
 }
