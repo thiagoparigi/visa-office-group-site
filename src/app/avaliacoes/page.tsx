@@ -46,6 +46,16 @@ export default function AvaliacoesPage() {
               <p className="font-semibold text-white">Miriam Bruno</p>
               <p className="text-sm text-gold-soft">Fonte: Instagram</p>
             </div>
+            <div className="card-premium">
+              <p className="text-gray-text leading-relaxed mb-6">{"Essa empresa é realmente séria, trabalha com muito proficionalismo e agilidade, sempre pronta a responder e tirar quaisquer dúvidas. Eu realmente indico os trabalhos oferecidos por eles. Em tudo foram verdadeiramente proficionais. Obrigada, muito obrigada @VISAOFFICEGROUP"}</p>
+              <p className="font-semibold text-white">Lubiana Souza</p>
+              <p className="text-sm text-gold-soft">Fonte: WhatsApp</p>
+            </div>
+            <div className="card-premium">
+              <p className="text-gray-text leading-relaxed mb-6">{"Essa empresa é realmente séria, trabalha com muito proficionalismo e agilidade, sempre pronta a responder e tirar quaisquer dúvidas. Eu realmente indico os trabalhos oferecidos por eles. Em tudo foram verdadeiramente proficionais. Obrigado, muito obrigado @VISAOFFICEGROUP"}</p>
+              <p className="font-semibold text-white">Marcos Antônio Torres de Paula</p>
+              <p className="text-sm text-gold-soft">Fonte: WhatsApp</p>
+            </div>
           </div>
         </div>
       </section>
