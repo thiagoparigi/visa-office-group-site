@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Menu, X, Instagram } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
-import { buildWhatsAppLink, getCalendlyUrl } from '@/lib/utils';
+import { buildWhatsAppLink, getBookingUrl } from '@/lib/utils';
 import LanguageToggle from './LanguageToggle';
 import NewsBar from './NewsBar';
 
@@ -69,7 +69,7 @@ export default function Header() {
               <a href={buildWhatsAppLink('Olá! Gostaria de fazer um diagnóstico do meu caso imigratório. Pode me ajudar?')} target="_blank" rel="noopener noreferrer" className="px-5 py-2.5 text-sm font-semibold text-gold-base border-2 border-gold-base/60 rounded-lg hover:bg-gold-base/10 hover:border-gold-base transition-all duration-300">
                 {t('cta.whatsapp')}
               </a>
-              <a href={getCalendlyUrl()} target="_blank" rel="noopener noreferrer" className="px-5 py-2.5 text-sm font-semibold text-navy-deep bg-gold-base rounded-lg hover:bg-gold-600 transition-all duration-300 shadow-lg">
+              <a href={getBookingUrl()} target="_blank" rel="noopener noreferrer" className="px-5 py-2.5 text-sm font-semibold text-navy-deep bg-gold-base rounded-lg hover:bg-gold-600 transition-all duration-300 shadow-lg">
                 {t('cta.schedule')}
               </a>
             </div>
@@ -91,7 +91,7 @@ export default function Header() {
                 <a href={buildWhatsAppLink('Olá! Gostaria de fazer um diagnóstico do meu caso imigratório. Pode me ajudar?')} target="_blank" rel="noopener noreferrer" className="block w-full px-5 py-3 text-center text-sm font-semibold text-gold-base border-2 border-gold-base/60 rounded-lg">
                   {t('cta.whatsapp')}
                 </a>
-                <a href={getCalendlyUrl()} target="_blank" rel="noopener noreferrer" className="block w-full px-5 py-3 text-center text-sm font-semibold text-navy-deep bg-gold-base rounded-lg">
+                <a href={getBookingUrl()} target="_blank" rel="noopener noreferrer" className="block w-full px-5 py-3 text-center text-sm font-semibold text-navy-deep bg-gold-base rounded-lg">
                   {t('cta.schedule')}
                 </a>
               </div>
