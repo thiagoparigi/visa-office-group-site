@@ -51,6 +51,11 @@ export default function AvaliacoesPage() {
               <p className="font-semibold text-white">Lubiana Souza e Marcos Antônio Torres de Paula</p>
               <p className="text-sm text-gold-soft">Fonte: WhatsApp</p>
             </div>
+            <div className="card-premium">
+              <p className="text-gray-text leading-relaxed mb-6">{"Meu amigo Thiago Parigi, da Visa Office Group, me ajudou a tirar meu visto americano de turismo (B2). Gostei muito da atenção com que ele me orientou e da tranquilidade que me passou durante o processo. Pela experiência que tive, recomendo o trabalho dele! Além dos vistos de turismo, a Visa Office Group também orienta quem busca o Green Card, incluindo processos por casamento e por categorias profissionais. Obrigado pelo atendimento, Thiago!"}</p>
+              <p className="font-semibold text-white">Gabriel Frigério</p>
+              <p className="text-sm text-gold-soft">Fonte: WhatsApp</p>
+            </div>
           </div>
         </div>
       </section>
