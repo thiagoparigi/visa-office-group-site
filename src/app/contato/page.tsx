@@ -1,6 +1,6 @@
 import { MapPin, Mail, Phone } from 'lucide-react';
 import { generatePageMetadata } from '@/lib/seo';
-import { getCalendlyUrl } from '@/lib/utils';
+import { getBookingUrl } from '@/lib/utils';
 import BackgroundLayer from '@/components/BackgroundLayer';
 
 export const metadata = generatePageMetadata({
@@ -59,7 +59,7 @@ export default function ContatoPage() {
                 </div>
               </div>
               <div className="mt-8">
-                <a href={getCalendlyUrl()} target="_blank" rel="noopener noreferrer" className="btn-primary inline-block">
+                <a href={getBookingUrl()} target="_blank" rel="noopener noreferrer" className="btn-primary inline-block">
                   Agendar Consulta
                 </a>
               </div>
