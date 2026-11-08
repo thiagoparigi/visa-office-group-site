@@ -1,5 +1,5 @@
 import { Heart, Briefcase, Users, Globe, FileCheck, CheckCircle, ListChecks, Eye, Bell } from 'lucide-react';
-import { buildWhatsAppLink, getCalendlyUrl } from '@/lib/utils';
+import { buildWhatsAppLink, getBookingUrl } from '@/lib/utils';
 import { generateLocalBusinessSchema } from '@/lib/seo';
 import BackgroundLayer from '@/components/BackgroundLayer';
 import TrustBadges from '@/components/TrustBadges';
@@ -66,7 +66,7 @@ export default function HomePage() {
               <a href={buildWhatsAppLink('Olá! Gostaria de fazer um diagnóstico do meu caso imigratório. Pode me ajudar?')} className="btn-primary">
                 Falar no WhatsApp
               </a>
-              <a href={getCalendlyUrl()} className="btn-secondary">
+              <a href={getBookingUrl()} className="btn-secondary">
                 Agendar Avaliação
               </a>
             </div>
@@ -149,7 +149,7 @@ export default function HomePage() {
             <a href={buildWhatsAppLink('Olá! Gostaria de fazer um diagnóstico do meu caso imigratório. Pode me ajudar?')} className="btn-primary">
               Falar no WhatsApp
             </a>
-            <a href={getCalendlyUrl()} className="btn-secondary">
+            <a href={getBookingUrl()} className="btn-secondary">
               Agendar Avaliação
             </a>
           </div>
