@@ -56,6 +56,11 @@ export default function AvaliacoesPage() {
               <p className="font-semibold text-white">Gabriel Frigério</p>
               <p className="text-sm text-gold-soft">Fonte: WhatsApp</p>
             </div>
+            <div className="card-premium">
+              <p className="text-gray-text leading-relaxed mb-6">{"Eu sou muito feliz por ter conhecido o profissionalismo e a dedicação e seriedade da Visa Office Group. Eu assino embaixo em todos os quesitos. Muito satisfeito com cada etapa do meu processo junto à empresa. Tenho apoio, amparo e segurança. Creio que muito em breve meu documento estará nas minhas mãos, em nome de Jesus. Obrigado Visa! Vocês são sensacionais!"}</p>
+              <p className="font-semibold text-white">Willians Lima</p>
+              <p className="text-sm text-gold-soft">Fonte: WhatsApp</p>
+            </div>
           </div>
         </div>
       </section>
