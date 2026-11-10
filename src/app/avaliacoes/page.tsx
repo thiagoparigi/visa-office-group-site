@@ -61,6 +61,26 @@ export default function AvaliacoesPage() {
               <p className="font-semibold text-white">Willians Lima</p>
               <p className="text-sm text-gold-soft">Fonte: WhatsApp</p>
             </div>
+            <div className="card-premium">
+              <p className="text-gray-text leading-relaxed mb-6">{"Não tenho palavras 👏🏻👏🏻👏🏻 Parabéns ✨️"}</p>
+              <p className="font-semibold text-white">Lux Mercier</p>
+              <p className="text-sm text-gold-soft">Fonte: Instagram</p>
+            </div>
+            <div className="card-premium">
+              <p className="text-gray-text leading-relaxed mb-6">{"Que bênção! Fico feliz por vocês! Deus abençoe!! 🙌🙌🙌"}</p>
+              <p className="font-semibold text-white">Adriene Borges</p>
+              <p className="text-sm text-gold-soft">Fonte: Instagram</p>
+            </div>
+            <div className="card-premium">
+              <p className="text-gray-text leading-relaxed mb-6">{"Pode arrumar as malas 👏🙌❤️"}</p>
+              <p className="font-semibold text-white">Sylvia Mary</p>
+              <p className="text-sm text-gold-soft">Fonte: Instagram</p>
+            </div>
+            <div className="card-premium">
+              <p className="text-gray-text leading-relaxed mb-6">{"👏👏👏 Parabéns!!"}</p>
+              <p className="font-semibold text-white">Certificado Digital nos Estados Unidos</p>
+              <p className="text-sm text-gold-soft">Fonte: Instagram</p>
+            </div>
           </div>
         </div>
       </section>
@@ -74,4 +94,5 @@ export default function AvaliacoesPage() {
       </section>
     </>
   );
+}
 }
